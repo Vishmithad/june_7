@@ -1,0 +1,82 @@
+d)maternal uncle
+c)father-in-law
+d)cannot determined
+c)father
+c)grandson
+c)X+A*Y
+b)c)R
+c)sister-in-law
+b)father
+b)c)s
+a)10km
+a)north
+a)south-west
+b)south-east
+
+                                            java test
+
+1)true
+2)10,110
+3)error
+4) main method is static it is invoked by the jvm directly so
+ it is not possible to call it by instatiating its class.
+
+5)class ReverseArray {
+    public static void main(String[] args) {
+        int[] inputArray = {10, 45, 7, 9, 2};
+        System.out.println("Original Array: " + inputArray);
+		reverseArray(inputArray);
+		System.out.println("Reversed Array: " + inputArray)
+    }
+	public static void reverseArray(int[] array) 
+	{
+        int start = 0;
+        int end = array.length - 1;
+		while (start < end) {
+          int temp = array[start];
+            array[start] = array[end];
+            array[end] = temp;
+            start++;
+            end--;
+        }
+    }
+}
+
+
+
+7)done
+8)this is a invoked keyword it calls current methods and constructor.
+this() it used to call one constructor from the other same of the class.
+
+9)class NumberSwap {
+    public static void main(String[] args) {
+        int a = 4;
+        int b = 8;
+
+        System.out.println("Before swapping:");
+		System.out.println("a =4 " + a);
+        System.out.println("b =8 " + b);
+        a = 4 + 8;
+        b = 4 + 8;
+        a = 4 - 8;
+        System.out.println("After swapping:");
+		System.out.println("a =4 " + a);
+        System.out.println("b =8 " + b);   
+	}
+	}
+	
+10)class Pattern{
+    public static void main(String[] args) {
+        System.out.println("&  &");
+        System.out.println("  & ");
+        System.out.println("&  &");
+		
+		System.out.println("% % %");
+        System.out.println("% & %");
+        System.out.println("% % %");
+		
+		System.out.println("% % %");
+        System.out.println("%   %");
+        System.out.println("% % %");
+    }
+}
