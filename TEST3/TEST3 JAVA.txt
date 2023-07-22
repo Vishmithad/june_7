@@ -1,0 +1,57 @@
+Error
+Errors
+Error
+length 4, sum of the values is 200.
+
+6)Parameters are variables defined in the method declaration after the method name, inside the parentheses.
+ 
+7)Compile-time polymorphism is obtained through method overloading. 
+The term method overloading allows us to have more than one method with the same name. this process is during compile time.
+example: method overloading.
+class example{
+int print()
+{
+retunr 0;
+}
+public static void main (String[] args){
+example example=new example();
+example.print;
+}
+}
+
+8)Var-args is a short name for variable arguments. In Java an argument of a method can accept arbitrary number of values.
+This argument that can accept variable number of values is called var-args.
+
+9)package is group of similar type os classes.interfaces and sub packages.
+explicit import: explicit means direct orwhen we give proper path of thejava class it will call as explicit import.
+implicit imports: implicit means indirect,when we load all as classes of package in our java code.
+
+10)constructor chaining is defined as calling the constructor inside the onther constructor.
+constructor chaining done in two ways whithin same class it can be done using this() keyword for constructor in same class.
+from base class by using super() keyword to call the constructor from the base class.
+
+
+13) public class ArrayEquality {
+    public static void main(String[] args) {
+        int[] array1 = {2, 3, 4, 5, 6};
+        int[] array2 = {6, 5, 4, 3, 2};
+        boolean result = Arrays.equals(array1, array2);
+        if (result) {
+            System.out.println("The arrays contain the same elements.");
+        } else {
+            System.out.println("The arrays do not contain the same elements.");
+        }
+    }
+}
+
+14)enum is a special class or data type is represents the group of constants. the variable must be equal to one of the
+values that have been predefined for it.
+
+15)when an object from class is created for the first time the JVM searches the file system
+for the definition of the class that is the java byte code.
+
+16)1.intance variable
+   2.methods
+   3.Staic and  nonsataic methods.
+   4.constructors
+   5.fields
