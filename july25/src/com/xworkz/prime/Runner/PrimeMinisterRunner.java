@@ -9,8 +9,8 @@ public class PrimeMinisterRunner {
 		PrimeMinister PrimeMinister=new PrimeMinister();
 		System.out.println(PrimeMinister);//print toString implicit
 
-		PrimeMinister PrimeMinister2=new PrimeMinister();
-		System.out.println(PrimeMinister2.toString());//print toString explicit
+		Object object2=new PrimeMinister();
+		System.out.println(object2.toString());//print toString explicit
 
 	}
 }

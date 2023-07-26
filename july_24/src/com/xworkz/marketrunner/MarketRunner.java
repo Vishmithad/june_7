@@ -9,5 +9,4 @@ public class MarketRunner {
 		OnlineMarket online = new OnlineMarket();
 		online.buy();
 	}
-
 }

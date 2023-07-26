@@ -8,8 +8,8 @@ public class MLARunner {
 		MLA MLA=new MLA();
 		System.out.println(MLA);//print toString implicit
 
-		MLA MLA2=new MLA();
-		System.out.println(MLA.toString());//print toString explicit
+		Object object2=new MLA();
+		System.out.println(object2.toString());//print toString explicit
 
 	}
 }

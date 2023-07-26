@@ -8,8 +8,8 @@ public class LakeRunner {
 		Lake Lake=new Lake();
 		System.out.println(Lake);//print toString implicit
 
-		Lake Lake2=new Lake();
-		System.out.println(Lake2.toString());//print toString explicit
+		Object object2=new Lake();
+		System.out.println(object2.toString());//print toString explicit
 
 	}
 }

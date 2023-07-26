@@ -8,8 +8,8 @@ public class LadooRunner {
 		Ladoo ladoo=new Ladoo();
 		System.out.println(ladoo);//print toString implicit
 
-		Ladoo ladoo2=new Ladoo();
-		System.out.println(ladoo2.toString());//print toString explicit
+		Object object2=new Ladoo();
+		System.out.println(object2.toString());//print toString explicit
 
 	}
 }

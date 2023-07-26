@@ -9,8 +9,8 @@ public class SecurityRunner {
 		Security Security=new Security();
 		System.out.println(Security);//print toString implicit
 
-		Security Security2=new Security();
-		System.out.println(Security2.toString());//print toString explicit
+		Object object2=new Security();
+		System.out.println(object2.toString());//print toString explicit
 
 	}
 }

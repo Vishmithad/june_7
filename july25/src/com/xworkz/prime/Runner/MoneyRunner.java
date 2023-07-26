@@ -8,8 +8,8 @@ public class MoneyRunner {
 		Money Money=new Money();
 		System.out.println(Money);//print toString implicit
 
-		Money Money2=new Money();
-		System.out.println(Money2.toString());//print toString explicit
+		Object object2=new Money();
+		System.out.println(object2.toString());//print toString explicit
 
 	}
 }

@@ -8,8 +8,8 @@ public class LotusRunner {
 		Lotus Lotus=new Lotus();
 		System.out.println(Lotus);//print toString implicit
 
-		Lotus Lotus2=new Lotus();
-		System.out.println(Lotus2.toString());//print toString explicit
+		Object object2=new Lotus();
+		System.out.println(object2.toString());//print toString explicit
 
 	}
 }
