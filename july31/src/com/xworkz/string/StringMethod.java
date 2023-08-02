@@ -4,35 +4,34 @@ public class StringMethod {
 	
 		public static void main(String[] args) {
 
-			String example = "java course in xworkz";
+			String course = "java course in xworkz";
 
-			System.out.println(example.charAt(15)); // x
+			System.out.println(course.charAt(15)); 
 
-			System.out.println(example.concat(" june")); // java course in xworkz
-			System.out.println(example.substring(5)); // java course
+			System.out.println(course.concat(" june")); 
+			System.out.println(course.substring(5)); 
 
-			System.out.println(example.substring(5, 7)); // java
+			System.out.println(course.substring(5, 7)); 
+			System.out.println(course.indexOf("java")); 
 
-			System.out.println(example.indexOf("java")); // 5
+			System.out.println(course.indexOf("java", 5));
 
-			System.out.println(example.indexOf("java", 5)); // 12
-
-			String example2 = "vishamitha@gmail.com";
-			String exstr[] = example.split("java");
-			for (String exs2 : exstr) {
-				System.out.print(exs2); // java course
+			String course2 = "vishamitha@gmail.com";
+			String costr[] = course.split("java");
+			for (String cos2 : costr) {
+				System.out.print(cos2); 
 			}
 			System.out.println();
 
-			System.out.println(example.equalsIgnoreCase(example2)); // false
+			System.out.println(course.equalsIgnoreCase(course2));
 
-			System.out.println(example.equals(example2)); // false
+			System.out.println(course.equals(course2)); 
 
-			String example3 = "todays class is Strings";
+			String course3 = "todays class is Strings";
 
-			System.out.println(example.compareTo(example2)); // -21
+			System.out.println(course.compareTo(course2)); 
 
-			System.out.println(example.compareToIgnoreCase(example3)); // 5
+			System.out.println(course.compareToIgnoreCase(course3)); 
 
 			String name = "Vishmitha";
 			char n[] = name.toCharArray();
@@ -40,19 +39,16 @@ public class StringMethod {
 				System.out.println(n[i]);
 			}
 
-			System.out.println(name.toUpperCase()); // VISHMITHA
+			System.out.println(name.toUpperCase()); 
+			System.out.println(name.isEmpty()); 
+			System.out.println(name.length()); 
 
-			System.out.println(name.isEmpty()); // false
+			System.out.println(name.startsWith("V")); 
+			System.out.println(name.replace('h', 'a')); 
 
-			System.out.println(name.length()); // 9
+			System.out.println(course2.replaceAll("@", "-")); 
 
-			System.out.println(name.startsWith("V")); // true
-
-			System.out.println(name.replace('h', 'a')); //vishmitha
-
-			System.out.println(example2.replaceAll("@", "-")); // vishmitha@gamil.com
-
-//			System.out.println(name.valueOf(true));
+     		System.out.println(name.valueOf(true));
 		}
 
 	}
